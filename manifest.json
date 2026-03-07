@@ -11,7 +11,7 @@
             "32": "icons\\S1_E24_Love_object_Izaya.png"
         },
         "default_title": "SearchLater",
-        "default_popup": "add_query.html"
+        "default_popup": "search_later.html"
     },
     "permissions":[
         "storage"
