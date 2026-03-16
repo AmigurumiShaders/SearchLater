@@ -4,14 +4,14 @@
     "version": "0.1",
     "description": "Firefox extension for all those times your brain got curious about something totally unrelated to the task at hand. Save them here so you can look at them later!",
     "icons": {
-        "48": "icons\\S1_E24_Love_object_Izaya.png"
+        "48": "icons\\searchlater48.png"
     },
     "browser_action": {
         "default_icon": {
-            "32": "icons\\S1_E24_Love_object_Izaya.png"
+            "32": "icons\\searchlater.png"
         },
         "default_title": "SearchLater",
-        "default_popup": "search_later.html"
+        "default_popup": "popup/search_later.html"
     },
     "permissions":[
         "storage"
