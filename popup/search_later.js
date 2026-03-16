@@ -16,11 +16,11 @@ function initStorage() {
 
 
     browser.storage.local.get("queryArray").then((result) => {
-        if (result == null) //if result is null, make it an array at least
+        
+        if (typeof result.queryArray === "undefined")
         {
-            // queryArray = new Array();
+            console.log("need to init new storage");
             browser.storage.local.set({ queryArray });
-
         }
         else {
             queryArray = result.queryArray;
